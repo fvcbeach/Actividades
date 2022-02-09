@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="calculadora.js"></script>
+    <style>
+        .min-flex{
+            display: .flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body onload="init();">
+    <div class="row bg-success min-flex" >
+        <div class="cont-calculadora container col-10 bg-white">
+            <div class="row cont-display">
+                <div class="display text-dark">
+                    <div id="valor-anterior">54</div>
+                    <div id="valor-actual">4</div>
+
+                </div>
+                <div class="row bg-white min-flex">
+                    <button id="Reset" class="col-2 btn btn-danger">CE</button>
+                    <button id="Borrar" class="col-2 btn btn-secondary">C</button>
+                    <button  class="col-2 btn btn-secondary">+/-</button>
+                    <button id="Suma" class="col-2 btn btn-primary">+</button>
+
+                </div>
+                <div class="row bg-white min-flex">
+                    <button id="Uno" class="col-2 btn btn-outline-info">1</button>
+                    <button id="Dos" class="col-2 btn btn-outline-info">2</button>
+                    <button id="Tres" class="col-2 btn btn-outline-info">3</button>
+                    <button id="Resta" class="col-2 btn btn-primary">-</button>
+
+                </div>
+                <div class="row bg-white min-flex">
+                    <button id="Cuatro" class="col-2 btn btn-outline-info">4</button>
+                    <button id="Cinco" class="col-2 btn btn-outline-info">5</button>
+                    <button id="Seis" class="col-2 btn btn-outline-info">6</button>
+                    <button id="Division" class="col-2 btn btn-primary">/</button>
+
+                </div>
+                <div class="row bg-white min-flex">
+                    <button id="Siete" class="col-2 btn btn-outline-info">7</button>
+                    <button id="Ocho" class="col-2 btn btn-outline-info">8</button>
+                    <button id="Nueve" class="col-2 btn btn-outline-info">9</button>
+                    <button id="Multiplicacion" class="col-2 btn btn-primary">*</button>
+
+                </div>
+                <div class="row bg-white min-flex">
+                    <button class="col-2 btn btn-secondary">%</button>
+                    <button id="Cero" class="col-2 btn btn-outline-info">0</button>
+                    <button class="col-2 btn btn-secondary">.</button>
+                    <button id="Resultado" class="col-2 btn btn-success">=</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
