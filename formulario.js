@@ -2,7 +2,8 @@ let datos = [{nombre:"Camila", edad: 20, peso: 60, condicion:"Peso normal", aler
     nombre:"Luis", edad: 40, peso: 90, condicion:"Sobre peso", alergias:"No"},{
      nombre:"Claudia", edad: 18, peso: 50, condicion:"Peso normal", alergias:"Si"},{
          nombre:"Manuel", edad: 20, peso: 52, condicion:"Bajo peso normal", alergias:"Si"},{
-             nombre:"Rodolfo", edad: 10, peso: 30, condicion:"Peso normal", alergias:"No"}];
+             nombre:"Rodolfo", edad: 10, peso: 30, condicion:"Peso normal", alergias:"No"}
+            ];
 
 let cantidadpersonas = datos.length;
 
