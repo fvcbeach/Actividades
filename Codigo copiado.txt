@@ -24,7 +24,7 @@
                             <option>Soltero</option>
                             <option>Casado</option>
                             <option>Viudo</option>
-                            <option>Divorciado</option>
+                            <option>Divociado</option>
 
                         </select>
 
@@ -35,14 +35,5 @@
             </div>
 
         </div>
-        <div class="col-12 col-sm-4 col-md-3 col-x1-1 text-center">
-            <img src="paisaje.jpg" class="img-fluid">
-        </div><br>
-        <div class="col-12 col-sm-4 col-md-3 col-x1-1 text-center">
-            <img src="paisaje.jpg" class="img-thumbnail">
-        </div ><br>
-        <div class="col-12 col-sm-4 col-md-3 col-x1-1 text-center">
-            <img src="paisaje.jpg" class="img-fluid">
-        </div><br>
     </body>
 </html>
