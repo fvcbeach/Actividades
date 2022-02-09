@@ -1,49 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8" />
-        <title>Formulario deportivo - Modulo 2 </title>
+        <meta charset="utf-8">
+        <title>Jerarquia</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .titulo { color: yellow; }
+        </style>
     </head>
     <body>
-        <center><h1>Formulario Deportivo</h1>
-        <form>
-            <div>
-                 <label for="nombre">Nombre:</label><br>
-                 <input type="text" name="nombre" id="nombre" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required/>
-            </div>
-            <div>
-                 <label for="apellidos">Primer apellido:</label><br>
-                 <input type="text" name="apellidos" id="apellidos" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,64}" required/>
-            </div>
-            <div>
-                 <label for="apellidos">Segundo Apellido:</label><br>
-                 <input type="text" name="apellidos" id="apellidos" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,64}" required/>
-            </div>
-            <div>
-                 <label for="edad">Edad:</label><br>
-                 <input type="text" id="edad" name="edad">
-            </div>
-            <div>
-                <label for="domicilio">Domicilio:</label><br>
-                <input type="text" id="domicilio" name="domicilio">
-           </div>
-           <div>
-               <h2>Es alérgico?</h2>
-               <input type="radio" id="si" name="alergia" value="SI">
-               <label for="si">Si</label>
-               <input type="radio" id="no" name="alergia" value="NO">
-               <label for="no">No</label>
-           </div>
-           <div>
-            <h2>Medicamentos contraindicados:</h2>
-            <textarea name="message" style="width:400px; height:400p;"></textarea>
-            <br>
-            <input type="submit">
-           </div>
-
-
-        </form>
-    </center>
-        
+        <h1 class="titulo" style="color:blue;">Ejemplo de CSS</h1>
     </body>
 </html>
